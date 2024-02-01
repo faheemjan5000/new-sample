@@ -1,4 +1,4 @@
 FROM openjdk:11
 EXPOSE 8080
-ADD target/sample-docker.jar sample-docker.jar
-ENTRYPOINT ["java","-jar","/sample-docker.jar"]
+ADD target/sample-service.jar sample-service.jar
+ENTRYPOINT ["java","-jar","/sample-service.jar"]
