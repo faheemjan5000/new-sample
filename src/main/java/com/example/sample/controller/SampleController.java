@@ -13,7 +13,7 @@ public class SampleController {
 
     @GetMapping("/faheem")
     public String morning(){
-        return "Good morning Faheem jan";
+        return "Good morning Faheem jan my friend ";
     }
 
     @PostMapping("/add/{message}")
