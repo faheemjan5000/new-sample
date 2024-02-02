@@ -32,4 +32,9 @@ public class SampleController {
     public List<Order> getAllOrders(){
         return orderService.getOrders();
     }
+
+    @GetMapping("/inpsector")
+    public String helloWorld(){
+        return "Hello inspector";
+    }
 }
